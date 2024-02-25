@@ -1,0 +1,30 @@
+.hidden {
+    display: none;
+}
+
+.result {
+    scale: .3;
+    transition: 1s ease;
+    position: absolute;
+    display: inline;
+    top: 65%;
+    left: -5%;
+    bottom: 100%;
+    filter: blur(4px);
+}
+
+.endscreen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#game {
+    transition: 1s ease;
+}
+
+.arcade {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
